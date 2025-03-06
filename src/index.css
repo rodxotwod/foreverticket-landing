@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 100% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 100% 17%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 100% 17%;
+    --primary: 16 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 24 95% 53%;
+    --secondary-foreground: 240 100% 17%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 0 0% 46%;
+    --accent: 24 100% 92%;
+    --accent-foreground: 240 100% 17%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 240 100% 17%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-[#000057] font-satoshi antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-satoshi;
+  }
+
+  p, span, li {
+    @apply font-roboto;
+  }
+
+  .text-gray-600 {
+    color: #757575;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FF5500] to-secondary;
+  }
+}
+
+.hero-pattern {
+  background-color: #ffffff;
+  background-image: radial-gradient(#FF5500 0.5px, transparent 0.5px), radial-gradient(#FF5500 0.5px, #ffffff 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  opacity: 0.1;
+}
+
+/* Update the tag background color */
+.bg-primary\/10 {
+  background-color: #FFE4D7;
+}
