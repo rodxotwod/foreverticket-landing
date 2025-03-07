@@ -137,9 +137,9 @@ export default function Index() {
           </div>
           <div className="mt-12 pt-8 border-t text-center text-gray-600">
             <div className="flex justify-center space-x-4 mb-4">
-              <Link to="/foreverticket-landing/TermsAndConditions" className="hover:text-primary">Terms & Conditions</Link>
+              <Link to="/TermsAndConditions" className="hover:text-primary">Terms & Conditions</Link>
               <span>•</span>
-              <Link to="/foreverticket-landing/PrivacyPolicy" className="hover:text-primary">Privacy Policy</Link>
+              <Link to="/PrivacyPolicy" className="hover:text-primary">Privacy Policy</Link>
             </div>
             <p>&copy; {new Date().getFullYear()} ForeverTicket. All rights reserved.</p>
           </div>

@@ -17,9 +17,9 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/foreverticket-landing" element={<Index />} />
-          <Route path="/foreverticket-landing/TermsAndConditions" element={<TermsAndConditions />} />
-          <Route path="/foreverticket-landing/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/" element={<Index />} />
+          <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
