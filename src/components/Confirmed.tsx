@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function Confirmed() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.location.href = 'foreverticket://sign-in/';
+      window.location.href = 'foreverticket://login/';
     }, 3000);
 
     return () => clearTimeout(timer);
