@@ -4,7 +4,7 @@ export default function Confirmed() {
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.href = 'foreverticket://login/';
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
