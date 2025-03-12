@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function Confirmed() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.location.href = 'foreverticket://confirm/';
+      window.location.href = 'foreverticket://sign-in/';
     }, 3000);
 
     return () => clearTimeout(timer);
@@ -15,19 +15,7 @@ export default function Confirmed() {
       <div className="relative flex items-center justify-center min-h-screen">
         <div className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-xl max-w-md w-full mx-4 text-center">
           <div className="mb-4">
-            <svg
-              className="mx-auto h-12 w-12 text-primary"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
+            <img src="/ForeverTicket.svg" alt="Forever Ticket" className="h-8 mx-auto" />
           </div>
           <h1 className="text-2xl font-bold mb-2">Account Confirmed!</h1>
           <h2 className="text-xl font-bold mb-4">
