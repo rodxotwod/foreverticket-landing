@@ -46,10 +46,11 @@ export default function Index() {
               <a href="#features" className="text-md font-medium hover:text-primary transition-colors">Features</a>
               <a href="#pricing" className="text-md font-medium hover:text-primary transition-colors">Pricing</a>
             </nav>
-
-            <Button variant="default" className="rounded-full">
-              Download Now
-            </Button>
+            <a target="_blank" href="https://apps.apple.com/fr/app/foreverticket-event-wallet/id6742692231?l=en-GB" className="block">
+              <Button variant="default" className="rounded-full">
+                Download Now
+              </Button>
+            </a>
           </div>
 
         </div>
@@ -71,9 +72,11 @@ export default function Index() {
                 Store all your tickets—concerts, train tickets, festivals, theater, and more—in one secure and accessible place, even offline.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "400ms" }}>
-                <Button size="lg" variant="default" className="rounded-full">
-                  Download Now <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
+                <a target="_blank" href="https://apps.apple.com/fr/app/foreverticket-event-wallet/id6742692231?l=en-GB" className="block">
+                  <Button size="lg" variant="default" className="rounded-full">
+                    Download Now <ArrowRight className="ml-2 w-5 h-5" />
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center animate-fade-in" style={{ animationDelay: "300ms" }}>
@@ -118,15 +121,16 @@ export default function Index() {
             <div>
               <h3 className="font-semibold mb-4">Social</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-600 hover:text-primary">Instagram</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-primary">TikTok</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-primary">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/foreverticket/" className="text-gray-600 hover:text-primary" target="_blank">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@forever_ticket" className="text-gray-600 hover:text-primary" target="_blank">TikTok</a></li>
+                <li><a href="https://www.linkedin.com/company/foreverticket/posts/?feedView=all" className="text-gray-600 hover:text-primary" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61573623106332" className="text-gray-600 hover:text-primary" target="_blank">Facebook</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold mb-4">Download</h3>
               <div className="space-y-3">
-                <a href="https://apps.apple.com/fr/app/foreverticket-event-wallet/id6742692231?l=en-GB" className="block">
+                <a target="_blank" href="https://apps.apple.com/fr/app/foreverticket-event-wallet/id6742692231?l=en-GB" className="block">
                   <img src="/Download_on_the_App_Store_Badge 1.png" alt="Download on the App Store" className="h-10" />
                 </a>
               </div>
