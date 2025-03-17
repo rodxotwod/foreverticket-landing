@@ -126,11 +126,8 @@ export default function Index() {
             <div>
               <h3 className="font-semibold mb-4">Download</h3>
               <div className="space-y-3">
-                <a href="#" className="block">
+                <a href="https://apps.apple.com/fr/app/foreverticket-event-wallet/id6742692231?l=en-GB" className="block">
                   <img src="/Download_on_the_App_Store_Badge 1.png" alt="Download on the App Store" className="h-10" />
-                </a>
-                <a href="#" className="block">
-                  <img src="/path11.png" alt="Get it on Google Play" className="h-10" />
                 </a>
               </div>
             </div>
